@@ -1,0 +1,13 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "dependencies": "log,BrainJS",
+    "execution_timeout": 300,
+    "logging_enabled": true,
+    "name": "BrainJSSmokeTest",
+    "params": [
+        "{}"
+    ],
+    "run_user": ""
+}

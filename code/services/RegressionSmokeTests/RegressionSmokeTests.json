@@ -1,0 +1,13 @@
+{
+    "auto_balance": false,
+    "auto_restart": false,
+    "concurrency": 0,
+    "dependencies": "log,RegressionLibrary",
+    "execution_timeout": 60,
+    "logging_enabled": true,
+    "name": "RegressionSmokeTests",
+    "params": [
+        "{}"
+    ],
+    "run_user": ""
+}

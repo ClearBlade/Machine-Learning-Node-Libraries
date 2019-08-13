@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "",
+    "messaging_url": "platform.clearblade.com:1883",
+    "name": "testNPMs",
+    "platform_url": "https://platform.clearblade.com",
+    "system_key": "debcccd40b989fccfccbaee5cf9001",
+    "system_secret": "DEBCCCD40B80E0A6B1FD97D6FB5A"
+}
