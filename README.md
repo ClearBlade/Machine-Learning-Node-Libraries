@@ -41,23 +41,26 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 ```
   https://github.com/ClearBlade/cb-dev-kit
 ```
-Before executing ``` cb-dev-kit build ``` command for tranpilation, navigate to -
-```
-  Your Project Folder -> cb-dev-kit -> Open webpack.config.js  
-```
-Search for ``` loader: "babel-loader" ``` and add this option after it - 
+Before executing ``` cb-dev-kit build ``` command for tranpilation, do the following two steps
 
-``` 
-  loader: "babel-loader",
-  option: {
-    preset: [
-      [
-        "@babel/preset-env"
-      ]
-    ]
-  }
-```
-and save the file and then you can execute the ``` cb-dev-kit build ``` command to Transpile.
+   - navigate to
+      ```
+        Your Project Folder -> cb-dev-kit -> Open webpack.config.js  
+      ```
+      Search for ``` loader: "babel-loader" ``` and add this option after it - 
+
+      ``` 
+        loader: "babel-loader",
+        option: {
+          preset: [
+            [
+              "@babel/preset-env"
+            ]
+          ]
+        }
+      ```
+      and save the file and then you can execute the ``` cb-dev-kit build ``` command to Transpile.
+      (Note: This option works for most of the libraries. But in some cases, you may have to use other options.)
 
 2. Each of the Node libraries are NPM Packages which can be installed from 
 ```
