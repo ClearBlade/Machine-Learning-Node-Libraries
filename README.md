@@ -38,13 +38,13 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 ```
 
 3. Create a new System [here](https://platform.clearblade.com) and [create](https://docs.clearblade.com/v/4/code/) a new Library. 
-4. Sample Library in your platform - 
+4. Sample code inside the Library in your platform - 
 
 ```
   require("@babel/polyfill")
   
   function getLib(){
-    const lib = require("ml-regression")
+    const lib = require("ml-regression")    // NPM package which you want to use
     return lib;
   }
   
@@ -70,6 +70,10 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 ```
 Before executing ``` cb-dev-kit build ``` command for tranpilation, do the following two steps -
 
+   - Install the NPM package that you want to use. Example - 
+     ```
+        npm i ml-regression
+     ```
    - Navigate to
       ```
         Your Project Folder -> cb-dev-kit -> Open webpack.config.js  
