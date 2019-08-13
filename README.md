@@ -26,12 +26,16 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 
 ## Setup
 
-1. Each of these libraries are NPM Packages which can be search on 
+1. Follow these steps to install Node and NPM.
+```
+https://www.npmjs.com/get-npm
+```
+2. Each of the Node libraries are NPM Packages which can be installed from 
 ```
 https://www.npmjs.com/
 
 ```
-2. 
+For example, to install ml-regression library, run the command ``` npm i ml-regression ```. Executing this command will create a *node_modules* folders which will have all the library dependency files.
 
 ## Usage
 
