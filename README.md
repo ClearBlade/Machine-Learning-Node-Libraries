@@ -5,7 +5,7 @@ Machine Learning Node Libraries are transpiled to run on the ClearBlade Platform
 
 ### [Overview](#overview-1)
 ### [System Installation](#system-installation)
-### [Transpilation Steps](#transpilation-steps-1)
+### [Steps for Transpilation to ES5](#transpilation-steps-1)
 ### [Usage](#usage-1)
 ### [Assets](#assets-1)
 
@@ -24,7 +24,7 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 3. Click **Create**
 4. You can now access this system in the platform.
 
-## Transpilation Steps
+## Steps for Transpilation to ES5
 
 1. Steps to install Node and NPM.
 ```
@@ -37,13 +37,13 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
   npm -v
 ```
 
-3. Steps to install CB-Dev-Kit and to Transpile your code service/library
+3. Steps to install CB-Dev-Kit and to Transpile your code service/library. Follow all the steps till ``` cb-dev-kit build ```.
 ```
   https://github.com/ClearBlade/cb-dev-kit
 ```
-Before executing ``` cb-dev-kit build ``` command for tranpilation, do the following two steps
+Before executing ``` cb-dev-kit build ``` command for tranpilation, do the following two steps -
 
-   - navigate to
+   - Navigate to
       ```
         Your Project Folder -> cb-dev-kit -> Open webpack.config.js  
       ```
@@ -61,6 +61,12 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
       ```
       and save the file and then you can execute the ``` cb-dev-kit build ``` command to Transpile.
       (Note: This option works for most of the libraries. But in some cases, you may have to use other options.)
+      
+   - Go to your code service and add an import 
+     ```
+        require("@babel/polyfill")
+     ```
+     If it is not install on your machine run the command ``` npm i @babel/polyfill ```
 
 2. Each of the Node libraries are NPM Packages which can be installed from 
 ```
