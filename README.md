@@ -23,3 +23,24 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 ```
 3. Click **Create**
 4. You can now access this system in the platform.
+
+## Setup
+
+## Usage
+
+## Assests
+
+### Libraries 
+
+``` BrainJS ``` : A Library Implementing Neural Networks
+``` SynapticLibrary ``` : A Library Implementing Neural Networks 
+
+| Library  | Description  | Official Documentation |   
+|---|---|---|
+| ``` BrainJS ```  | A Library Implementing Neural Networks | https://github.com/BrainJS/brain.js  |   
+| ``` SynapticLibrary ``` | A Library Implementing Neural Network  | https://github.com/cazala/synaptic  | 
+| ``` RegressionLibrary ```  | A Library Implementing Linear and Polynomial Regression  | https://github.com/mljs/regression  | 
+
+### Code Services
+
+### Official Documentation of the Node Libraries on
