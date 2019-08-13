@@ -68,7 +68,7 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 ```
   https://github.com/ClearBlade/cb-dev-kit
 ```
-Before executing ``` cb-dev-kit build ``` command for tranpilation, do the following two steps -
+Before executing ``` cb-dev-kit build ``` command for tranpilation, do the following three steps -
 
    - Install the NPM package that you want to use. Example - 
      ```
@@ -76,7 +76,7 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
      ```
    - Navigate to
       ```
-        Your Project Folder -> cb-dev-kit -> Open webpack.config.js  
+        Your Project Folder -> cb-dev-kit Folder -> Open webpack.config.js  
       ```
       Search for ``` loader: "babel-loader" ``` and add this option after it - 
 
@@ -96,15 +96,18 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
      ```
         require("@babel/polyfill")
      ```
-     If it is not install on your machine run the command ``` npm i @babel/polyfill ```
-     You can now execute the ``` cb-dev-kit build ``` command to Transpile.
+     If it is not installed on your machine run the command ``` npm i @babel/polyfill ```.
      (Note: These options might not work for all the NPM Packages).
+     
+     You can now execute the ``` cb-dev-kit build ``` command to Transpile.
 
 6. Push all changes back to your system 
 ```
    https://github.com/ClearBlade/cb-cli
 ```
-7. Go to the platform and see if the library code has been transpiled. [Create](https://docs.clearblade.com/v/4/code/) a new code service and copy the code inside the *execute() function* of your library in the code service. 
+7. Go to the platform and check if the library code has been transpiled. [Create](https://docs.clearblade.com/v/4/code/) a new code service. Add the library which was created earlier to the code service. 
+
+8. Finally, copy the code inside the *execute() function* (execute() is the Function Name in my example) of your library in the code service. 
 
 ## Usage
 
