@@ -5,7 +5,7 @@ Machine Learning Node Libraries are transpiled to run on the ClearBlade Platform
 
 ### [Overview](#overview-1)
 ### [System Installation](#system-installation)
-### [Steps for Transpilation to ES5](#steps-for-transpilation-es5-1)
+### [Steps for Transpilation to ES5](#steps-for-transpilation-to-es5-1)
 ### [Usage](#usage-1)
 ### [Assets](#assets-1)
 
