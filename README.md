@@ -26,6 +26,13 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 
 ## Setup
 
+1. Each of these libraries are NPM Packages which can be search on 
+```
+https://www.npmjs.com/
+
+```
+2. 
+
 ## Usage
 
 ## Assests
