@@ -59,21 +59,15 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
           ]
         }
       ```
-      and save the file and then you can execute the ``` cb-dev-kit build ``` command to Transpile.
-      (Note: This option works for most of the libraries. But in some cases, you may have to use other options.)
+      and save the file.
       
    - Go to your code service and add an import 
      ```
         require("@babel/polyfill")
      ```
      If it is not install on your machine run the command ``` npm i @babel/polyfill ```
-
-2. Each of the Node libraries are NPM Packages which can be installed from 
-```
-https://www.npmjs.com/
-
-```
-For example, to install ml-regression library, run the command ``` npm i ml-regression ```. Executing this command will create a *node_modules* folders which will have all the library dependency files.
+     You can now execute the ``` cb-dev-kit build ``` command to Transpile.
+     (Note: These options might not work for all the NPM Packages).
 
 ## Usage
 
