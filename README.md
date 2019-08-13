@@ -32,15 +32,15 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 
 ### Libraries 
 
-``` BrainJS ``` : A Library Implementing Neural Networks
-``` SynapticLibrary ``` : A Library Implementing Neural Networks 
-
 | Library  | Description  | Official Documentation |   
 |---|---|---|
 | ``` BrainJS ```  | A Library Implementing Neural Networks | https://github.com/BrainJS/brain.js  |   
 | ``` SynapticLibrary ``` | A Library Implementing Neural Network  | https://github.com/cazala/synaptic  | 
-| ``` RegressionLibrary ```  | A Library Implementing Linear and Polynomial Regression  | https://github.com/mljs/regression  | 
+| ``` RegressionLibrary ```  | A Library Implementing Linear and Polynomial Regression  | https://github.com/mljs/regression  | | ``` NaiveBayesLibrary ```  | A Library Implementing Gaussian and Multoinomial Naive Bayes Algorithms  | https://github.com/mljs/naive-bayes  | 
 
 ### Code Services
 
-### Official Documentation of the Node Libraries on
+``` BrainJSSmokeTest ``` : A code service to show working of BrainJS Library.
+``` SynapticSmokeTest ``` : A code service to show working of Synaptic Library.
+``` RegressionSmokeTest ``` : A code service to show working of Regression Library.
+``` NaiveBayesSmokeTest ``` : A code service to show working of Naive Bayes Library.
