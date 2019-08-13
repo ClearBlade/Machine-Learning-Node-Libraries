@@ -34,8 +34,8 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 
 | Library  | Description  | Official Documentation |   
 |---|---|---|
-| ``` BrainJS ```  | A Library Implementing Neural Networks | https://github.com/BrainJS/brain.js  |   
-| ``` SynapticLibrary ``` | A Library Implementing Neural Network  | https://github.com/cazala/synaptic  | 
+| ``` BrainJS ```  | A Library to Implement Neural Networks | https://github.com/BrainJS/brain.js  |   
+| ``` SynapticLibrary ``` | A Library to Implement Neural Networks  | https://github.com/cazala/synaptic  | 
 | ``` RegressionLibrary ```  | A Library Implementing Linear and Polynomial Regression  | https://github.com/mljs/regression  | 
 | ``` NaiveBayesLibrary ```  | A Library Implementing Gaussian and Multoinomial Naive Bayes Algorithms  | https://github.com/mljs/naive-bayes  | 
 
