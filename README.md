@@ -117,13 +117,13 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 
 ## Usage
 
-- This IPM package consists for four Machine Learning Libraries which allow you to train and test models on the ClearBlade Platform. The Libraries are - 
+- This IPM package consists for four Machine Learning Libraries which allow you to train and test models on the ClearBlade Platform. These Libraries are NPM packages that have been transpiled to work on the ClearBlade Platform. The libraries that have been transpiled are - 
   - brain-js
   - synaptic
   - ml-regression
   - ml-naivebayes
 
-- These Libraries can be used to create Neural Networks Model and Bayesian Models for Classification and Regression Models for prediction. 
+- These Libraries can be used to design Neural Networks Model and Bayesian Models for Classification, and Regression Models for Prediction. 
 
 ## Assests
 
