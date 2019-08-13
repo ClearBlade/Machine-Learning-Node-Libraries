@@ -5,11 +5,17 @@ Machine Learning Node Libraries are transpiled to run on the ClearBlade Platform
 
 ### [Overview](#overview-1)
 ### [System Installation](#system-installation)
-### [Steps for Transpilation to ES5](#transpilation-steps-1)
+### [Steps for Transpilation to ES5](#steps-for-transpilation-es5-1)
 ### [Usage](#usage-1)
 ### [Assets](#assets-1)
 
 ## Overview
+
+This IPM package consists of different Machine Learning Libraries that can be used for Classification and Prediction tasks on the ClearBlade Platform.
+
+This is an ipm package, which contains one or more reusable assets within the ipm Community. The 'package.json' in this repo is a ipm spec's package.json, [here](https://docs.clearblade.com/v/3/6-ipm/spec), which is a superset of npm's package.json spec, [here](https://docs.npmjs.com/files/package.json).
+
+[Browse ipm Packages](https://ipm.clearblade.com)
 
 ## System Installation
 
@@ -111,7 +117,11 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 
 ## Usage
 
-- This IPM package consists for four Machine Learning Libraries which allow you to train and test models on the ClearBlade Platform. 
+- This IPM package consists for four Machine Learning Libraries which allow you to train and test models on the ClearBlade Platform. The Libraries are - 
+  - brain-js
+  - synaptic
+  - ml-regression
+  - ml-naivebayes
 
 - These Libraries can be used to create Neural Networks Model and Bayesian Models for Classification and Regression Models for prediction. 
 
