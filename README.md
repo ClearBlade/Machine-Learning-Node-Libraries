@@ -5,7 +5,7 @@ Machine Learning Node Libraries are transpiled to run on the ClearBlade Platform
 
 ### [Overview](#overview-1)
 ### [System Installation](#system-installation)
-### [Setup](#setup-1)
+### [Transpilation Steps](#transpilation-steps-1)
 ### [Usage](#usage-1)
 ### [Assets](#assets-1)
 
@@ -24,12 +24,41 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
 3. Click **Create**
 4. You can now access this system in the platform.
 
-## Setup
+## Transpilation Steps
 
-1. Follow these steps to install Node and NPM.
+1. Steps to install Node and NPM.
 ```
-https://www.npmjs.com/get-npm
+  https://www.npmjs.com/get-npm
 ```
+
+2. Check if Node and NPM are successfully installed by running the commands - 
+```
+  node -v
+  npm -v
+```
+
+3. Steps to install CB-Dev-Kit and to Transpile your code service/library
+```
+  https://github.com/ClearBlade/cb-dev-kit
+```
+Before executing ``` cb-dev-kit build ``` command for tranpilation, navigate to -
+```
+  Your Project Folder -> cb-dev-kit -> Open webpack.config.js  
+```
+Search for ``` loader: "babel-loader" ``` and add this option after it - 
+
+``` 
+  loader: "babel-loader",
+  option: {
+    preset: [
+      [
+        "@babel/preset-env"
+      ]
+    ]
+  }
+```
+and save the file and then you can execute the ``` cb-dev-kit build ``` command to Transpile.
+
 2. Each of the Node libraries are NPM Packages which can be installed from 
 ```
 https://www.npmjs.com/
