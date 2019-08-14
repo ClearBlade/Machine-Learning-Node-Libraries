@@ -142,10 +142,10 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 
 ``` BrainJSSmokeTest ``` : A code service to show working of BrainJS Library.
 
-``` DecisionTreeSmokeTst ``` : A code service to show working of Decision Tree Library.
-
 ``` SynapticSmokeTest ``` : A code service to show working of Synaptic Library.
 
 ``` RegressionSmokeTest ``` : A code service to show working of Regression Library.
 
 ``` NaiveBayesSmokeTest ``` : A code service to show working of Naive Bayes Library.
+
+``` DecisionTreeSmokeTst ``` : A code service to show working of Decision Tree Library.
