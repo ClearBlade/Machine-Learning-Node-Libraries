@@ -43,7 +43,7 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
   npm -v
 ```
 
-3. Create a new System [here](https://platform.clearblade.com). Once the system is created, [create](https://docs.clearblade.com/v/4/code/) a new Library. 
+3. Create a new System [here](https://platform.clearblade.com). Once the system is created, [create](https://docs.clearblade.com/v/4/code/tutorial/) a new Library. 
 4. Sample code inside the Library in your platform - 
 
 ```
@@ -111,7 +111,7 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 ```
    https://github.com/ClearBlade/cb-cli
 ```
-7. Go to the platform and check if the library code has been transpiled. [Create](https://docs.clearblade.com/v/4/code/) a new code service. Add the library which was created earlier to the code service. 
+7. Go to the platform and check if the library code has been transpiled. [Create](https://docs.clearblade.com/v/4/code/tutorial/) a new code service. Add the library which was created earlier to the code service. 
 
 8. Finally, copy the code inside the *execute() function* (execute() is the Function Name in my example) of your library in the code service. 
 
