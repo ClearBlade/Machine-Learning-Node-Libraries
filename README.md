@@ -126,7 +126,7 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 
 - These Libraries can be used to design Neural Networks Model and Bayesian Models for Classification, and Regression Models for Prediction. 
 
-- The implementation of these libraries is done in the Code Services and you can refer to **Official Documentation** of that library to explore more options that you can use.  
+- The implementation of these libraries is done in the Code Services and you can refer to the **Official Documentation** of that library to explore more options that you can use.  
 
 ## Assests
 
