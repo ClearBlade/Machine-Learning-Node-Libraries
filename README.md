@@ -150,4 +150,4 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 
 ``` NaiveBayesSmokeTest ``` : A code service to show working of Naive Bayes Library.
 
-``` DecisionTreeSmokeTst ``` : A code service to show working of Decision Tree Library.
+``` DecisionTreeSmokeTest ``` : A code service to show working of Decision Tree Library.
