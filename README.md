@@ -43,7 +43,7 @@ https://github.com/ClearBlade/Machine-Learning-Node-Libraries
   npm -v
 ```
 
-3. Create a new System [here](https://platform.clearblade.com) and [create](https://docs.clearblade.com/v/4/code/) a new Library. 
+3. Create a new System [here](https://platform.clearblade.com). Once the system is created, [create](https://docs.clearblade.com/v/4/code/) a new Library. 
 4. Sample code inside the Library in your platform - 
 
 ```
