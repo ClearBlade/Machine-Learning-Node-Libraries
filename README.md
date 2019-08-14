@@ -117,11 +117,12 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 
 ## Usage
 
-- This IPM package consists for four Machine Learning Libraries which allow you to train and test models on the ClearBlade Platform. These Libraries are NPM packages that have been transpiled to work on the ClearBlade Platform. The libraries that have been transpiled are - 
+- This IPM package consists for five Machine Learning Libraries which allow you to train and test models on the ClearBlade Platform. These Libraries are NPM packages that have been transpiled to work on the ClearBlade Platform. The libraries that have been transpiled are - 
   - brain-js
   - synaptic
   - ml-regression
   - ml-naivebayes
+  - ml-cart
 
 - These Libraries can be used to design Neural Networks Model and Bayesian Models for Classification, and Regression Models for Prediction. 
 
@@ -134,11 +135,14 @@ Before executing ``` cb-dev-kit build ``` command for tranpilation, do the follo
 | ``` BrainJS ```  | A Library to Implement Neural Networks | https://github.com/BrainJS/brain.js  |   
 | ``` SynapticLibrary ``` | A Library to Implement Neural Networks  | https://github.com/cazala/synaptic  | 
 | ``` RegressionLibrary ```  | A Library Implementing Linear and Polynomial Regression  | https://github.com/mljs/regression  | 
-| ``` NaiveBayesLibrary ```  | A Library Implementing Gaussian and Multoinomial Naive Bayes Algorithms  | https://github.com/mljs/naive-bayes  | 
+| ``` NaiveBayesLibrary ```  | A Library Implementing Gaussian and Multoinomial Naive Bayes Algorithms  | https://github.com/mljs/naive-bayes  |
+| ``` CARTDecisionTreeLibrary ```  | A Library Implementing Classification and Regression Trees  | https://github.com/mljs/decision-tree-cart |
 
 ### Code Services
 
 ``` BrainJSSmokeTest ``` : A code service to show working of BrainJS Library.
+
+``` DecisionTreeSmokeTst ``` : A code service to show working of Decision Tree Library.
 
 ``` SynapticSmokeTest ``` : A code service to show working of Synaptic Library.
 
